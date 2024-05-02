@@ -6,6 +6,7 @@
       "textColor": "#000000",
       "textSize": 16,
       "labelText": "Rate of Interest",
+      "isDrop": false,
       "values": [
            "1"
       ]
@@ -18,6 +19,7 @@
       "textColor": "#000000",
       "textSize": 16,
       "labelText": "No. of Times Compounded",
+      "isDrop": false,
       "values": [
        "1"
       ]
@@ -30,6 +32,7 @@
       "textColor": "#000000",
       "textSize": 16,
       "labelText": "No. of Years",
+      "isDrop": false,
       "values": [
         "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ]
     }

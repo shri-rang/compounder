@@ -161,6 +161,7 @@ class Field {
   String? textColor;
   int? textSize;
   String? labelText;
+  bool? isDrop;
   List<dynamic>? values;
   String? hintText;
 
@@ -171,6 +172,7 @@ class Field {
     this.textSize,
     this.labelText,
     this.values,
+    this.isDrop,
     this.hintText,
   });
 
@@ -180,6 +182,7 @@ class Field {
         textColor: json["textColor"],
         textSize: json["textSize"],
         labelText: json["labelText"],
+        isDrop: json["isDrop"],
         values: List<dynamic>.from(json["values"].map((x) => x)),
         hintText: json["hintText"],
       );
@@ -190,6 +193,7 @@ class Field {
         "textColor": textColor,
         "textSize": textSize,
         "labelText": labelText,
+        "isDrop": isDrop,
         "values": List<dynamic>.from(values!.map((x) => x)),
         "hintText": hintText,
       };
