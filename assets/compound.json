@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "name": "Rate of Interest",
+      "type": "dropdown",
+      "textColor": "#000000",
+      "textSize": 16,
+      "labelText": "Rate of Interest",
+      "values": [
+           "1"
+      ]
+    },
+ 
+    {
+      "name": "No. of Times Compounded",
+      "type": "dropdown",
+      "hintText": "",
+      "textColor": "#000000",
+      "textSize": 16,
+      "labelText": "No. of Times Compounded",
+      "values": [
+       "1"
+      ]
+    
+    },
+    {
+      "name": "No. of Years",
+      "type": "dropdown",
+      "hintText": "",
+      "textColor": "#000000",
+      "textSize": 16,
+      "labelText": "No. of Years",
+      "values": [
+        "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ]
+    }
+
+  ]
+}
